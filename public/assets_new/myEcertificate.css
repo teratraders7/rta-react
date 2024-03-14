@@ -1,0 +1,24 @@
+/* 
+ This Style Sheet is used to hand style for date picked in my-ecertificates.do for roadTestExamDate
+*/
+.ui-datepicker-trigger {
+    border: none;
+    background: url(../images_ar/calendar.html)no-repeat 0 0;
+    width: 17px;
+    height: 15px;
+    margin: 0 !important;
+    cursor: pointer;
+    display: inherit !important;
+}
+
+.ui-datepicker-div, #ui-datepicker-div {
+    z-index: 9999;
+    display: none;
+    direction: ltr;
+    text-align: left;
+    position: absolute;
+    top: 490px !important;
+    width: 191px !important;
+    left: 688px !important;
+    display: block;
+}

@@ -1,0 +1,380 @@
+/****** All Rights reserved to syntaxdigital.com ******/
+
+/*Common Styles*/
+body{font:normal 11px Verdana, Arial, Helvetica, sans-serif; color:#2c2c2c; background:#fff; line-height:1; padding:0; margin:0; text-align:left}
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,fieldset,input,textarea,p,blockquote,th,td{margin:0;padding:0;}
+img{outline:none;}
+fieldset, img{border:none}
+ul, ol, li{list-style:none;}
+table, td, form, fieldset{border:none; border-collapse:collapse; border-spacing:0;}
+caption, th, td{text-align:left; font-weight:normal;}
+.nowrap{white-space:nowrap}
+h1, h2, h3, h4, h5, h6{font:bold 15px Helvetica, Arial, Verdana, sans-serif}
+strong{font:bold 12px Helvetica;}
+select, textarea, input{font-size:11px; font-family:verdana; color:#2c2c2c}
+a, a:link, a:visited, a:active{color:#528fba; text-decoration:none; outline:none}
+a:hover{text-decoration:underline}
+.cleaner{zoom:1}
+.cleaner:after{clear:both;content:'.';display:block;height:0;visibility:hidden;}
+.fr{float:right}
+.fl{float:left;}
+
+.inptcorns, .inptcorns em, .inptbltbg, .inptbltbg em{background:url(../../traffic.rta.ae/trfesrv/public_resources/images_en/inpttxt.gif) no-repeat 100% 0; padding:0 4px 0 0; display:inline-block; height:22px;}
+.inptcorns em, .inptbltbg em{background-position:0 0 ; padding:3px 0 0 4px; height:19px}
+.inpttxt{border:1px solid #fff; height:15px; color:#676767; width:150px;}
+
+.inptbltbg, .inptbltbg em{background:url(../../traffic.rta.ae/trfesrv/public_resources/images_en/inpttxtblubg.gif) no-repeat 100% 0;}
+.inptbltbg em{background-position:0 0}
+
+.inptslct{padding:0 0 0 2px; color:#676767; height:20px; margin-bottom:2px;}
+.refbg{background:url(../../traffic.rta.ae/trfesrv/public_resources/images_en/refbg.gif) no-repeat 100% 0;}
+.wdth50{width:63px}
+.wdth90{width:90px;}
+.wdth120{width:120px;}
+.wdth130{width:130px;}
+.wdth150{width:150px;}
+.wdth180{width:185px;}
+.wdth200{width:200px;}
+.wdth20per{width:22%}
+
+.inptbtn{border:none; background:none; display:inline-block; margin:-3px -8px 0 0; cursor:pointer; padding:0; *margin:-3px 0 0 0; *width:auto; *overflow:visible; _position:relative;}
+.inptbtn span{background:url(../../traffic.rta.ae/trfesrv/public_resources/images_en/reg_btn.gif) no-repeat 0 0; padding:0 0 0 15px; height:22px; display:inline-block}
+.inptbtn em{background:url(../../traffic.rta.ae/trfesrv/public_resources/images_en/reg_btn.gif) no-repeat 100% 0; padding:0 15px 0 0; font:normal bold 12px Helvetica; height:22px; line-height:22px; color:#d33127; white-space:nowrap; display:inline-block;}
+
+.margb4{margin-bottom:4px;}
+.marglft{margin-left:10px;}
+.margrit{margin-right:5px;}
+.normfnt{font:normal 11px verdana;}
+/**/
+.container{width:1040px; margin:0 auto; line-height:16px; padding:15px 0 0;}
+.content{clear:both; padding:0 0 30px;}
+.subcont{margin:15px 30px 0;}
+.hafwdth{width:47%;}
+.title{font:normal 22px Helvetica; color:#d33127; margin:0 0 15px;}
+.tilesmal{color:#d33127; margin-bottom:8px;}
+.bluetitle, .redtitle , .greentitle{font:bold 16px Helvetica; color:#065696; margin:0 0 10px;}
+.greentitle{color:#13A013;}
+
+.boxtitle{background:url(../../traffic.rta.ae/trfesrv/public_resources/images_en/titlebg.gif) repeat-x 0 100%; padding:7px 30px 12px; font:bold 16px Helvetica;/* color:#d33127*/ color:#065696}
+.boxbg{background:url(../../traffic.rta.ae/trfesrv/public_resources/images_en/boxbgpx.gif) repeat-x 0 0; margin:0 0 20px}
+.boxdatapx, .boxdatacolr, .boxdatapx-nrp{background:#fff url(../../traffic.rta.ae/trfesrv/public_resources/images_en/boxdatapx.gif) repeat-x 0 0; padding:10px 30px 7px;}
+.boxdatacolr{background:#eceff1}
+.boxpxmore{background:#fff url(../../traffic.rta.ae/trfesrv/public_resources/images_en/boxpxmore.gif) repeat-x 0 0; padding:10px 30px 7px;}
+.boxbotpx{background:#fff url(../../traffic.rta.ae/trfesrv/public_resources/images_en/boxbotmpx.gif) repeat-x 0 100%; padding:50px 0 0;}
+.boxbotpx .boxcornrs, .boxbotpx .boxcornrs span{background:url(../../traffic.rta.ae/trfesrv/public_resources/images_en/brcorn.gif) no-repeat 100% 0;}
+.boxbotpx .boxcornrs span{background:url(../../traffic.rta.ae/trfesrv/public_resources/images_en/blcorn.gif) no-repeat 0 0;}
+.boxdatapx-nrp{padding:10px 0 7px 30px;}
+
+.boxtoparow, .boxbotomarow{background:#eceff1 url(../../traffic.rta.ae/trfesrv/public_resources/images_en/boxtoparow.gif) no-repeat 50% 100%; padding:15px 0 30px; text-align:center;}
+.boxbotomarow{background-position: 50% 0; padding:30px 0 15px;}
+.movtitle{padding:0 0 28px; margin:0}
+.cols li{float:left;}
+.frstcol{width:50.5%; margin:0 3% 0 24px; _margin:0 3% 0 12px;}
+.scndcol{width:17%; margin:2px 3% 0 0}
+.thrdcol{width:14.75%;}
+.bluearrow, .redarrow{background:url(../../traffic.rta.ae/trfesrv/public_resources/images_en/arrows.gif) no-repeat 0 -38px; padding:0 0 0 10px;}
+.redarrow{background-position:0 3px}
+.downarrow, .uparrow{background:url(../../traffic.rta.ae/trfesrv/public_resources/images_en/downarrow.gif) no-repeat 100% 3px; padding:0 14px 0 0; cursor:pointer}
+.uparrow{background:url(../../traffic.rta.ae/trfesrv/public_resources/images_en/uparrow.gif) no-repeat 100% 3px;}
+.undrcols, .undrcolslft{background:#fff url(../../traffic.rta.ae/trfesrv/public_resources/images_en/corners.gif) no-repeat 100% -30px; padding:0 3px 0 0; margin:10px 0 0}
+.undrcolslft{background-position:0 0; padding:6px 0 4px 3px; margin:0}
+.fines{margin:0 0 15px 30px;}
+.finecol1, .finecol1iner{width:100px; float:left; margin:0 15px 0 0;}
+.finecol2, .updates{float:left; width:810px;}
+.finecol1iner{width:150px;}
+.finecol2iner{float:left; width:760px;}
+.urfines{background:#f5f6f7; padding:4px; margin:0 2px 4px 0; display:inline-block}
+.updates{}
+.updates li{margin:0 0 1px}
+.new, .due{padding:2px 6px 3px 4px;}
+.new{background:#f6ef89;}
+.due{background:#e7908a; color:#fff}
+.newattr{display:block; float:left; margin:0 5px 0 0;}
+.newdesc{padding:2px 0 0}
+.frminpts{}
+.frminpts li{float:left; margin:0 20px 0 0}
+.frminpts li.last{margin:0}
+.tips{color:#b7b9ba; margin:0 0 0 6px}
+.srchcont{margin:20px 0;}
+
+.srchrsult, .payfees, .totalamount, .regularfines, .moreinfo{width:100%;}
+.srchrsult td{border-right:1px solid #dbdbdb; background:#eceff1 url(	https://traffic.rta.ae/trfesrv/public_resources/images_en/titlebg.gif) repeat-x 0 100%; padding:6px 18px 6px 12px;}
+.srchrsult td.nobg{border:none}
+.srchrsult th.nobg .digbg{background:none}
+.srchrsult th{background:url(https://traffic.rta.ae/trfesrv/public_resources/images_en/thbg.gif) repeat-x 0 0; font-weight:bold; color:#777;}
+.payfees td, .regularfines td, .regularfines th{background:#eceff1 url(../../traffic.rta.ae/trfesrv/public_resources/images_en/titlebg.gif) repeat-x 0 100%;}
+.payfees td, .regularfines td, .regularfines th{padding:12px; border-right:1px solid #dbdbdb}
+.payfees th{background:url(../../traffic.rta.ae/trfesrv/public_resources/images_en/thbg.gif) repeat-x 0 0; font-weight:bold; height:42px; padding:0 12px;}
+.payfees tr.lastrow td, .srchrsult tr.lastrow td{background:#fff; border-bottom:1px solid #ccc; padding:12px}
+.payfees tr.witrow td{background:#fff; font-weight:bold; color:#666}
+.feesdig{background:url(../../traffic.rta.ae/trfesrv/public_resources/images_en/tdbg.gif) repeat-y 100% 0; padding:12px;}
+.payfees tr.havsep th{padding:0}
+.regularfines{background:#f9fafb url(../../traffic.rta.ae/trfesrv/public_resources/images_en/thbg.gif) repeat-x 0 0;}
+.regularfines th{background:url(../../traffic.rta.ae/trfesrv/public_resources/images_en/titlebg.gif) repeat-x 0 100%; font-weight:bold; color:#777}
+.regularfines td.lastcell, .regularfines th.lastcell, .payfees td.lastcell, .payfees th.lastcell, .srchrsult td.lastcell{border:none}
+
+.totalfees, .totalnum{font:bold 15px Helvetica}
+.totalnum{color:#666;}
+.totalamount{margin:15px 0 0;}
+.totalamount td{padding:12px 12px 3px;}
+.wdth40per{width:40%;}
+.totalamount tr.lastamount td{padding:12px;}
+.totalamount tr.lastamount{background:#777; color:#fff}
+.totalamount tr.lastamount .totalnum{color:#fff;}
+.talbcorn{background:#777 url(../../traffic.rta.ae/trfesrv/public_resources/images_en/talbcorn.gif) no-repeat 0 100%;}
+.tarbcorn{background:#777 url(../../traffic.rta.ae/trfesrv/public_resources/images_en/tarbcorn.gif) no-repeat 100% 100%;}
+
+.digbg{background:url(https://traffic.rta.ae/trfesrv/public_resources/images_en/tdbg.gif) repeat-y 100% 0; height:28px; padding:16px 12px 2px 12px; margin:-6px 0 0; *position:relative}
+.digbgx{background:url(../../traffic.rta.ae/trfesrv/public_resources/images_en/titlebg.gif) repeat-x 0 100%; padding:7px 0 4px; margin:0 0 10px;}
+table .digbg{*margin-right:-1px;}
+.algnmid{text-align:center;}
+.actions_div, .moreinfo_div{width:186px; position:absolute; background:#fff; border:1px solid #ccc; text-align:left; padding:8px 12px; display:none; *margin:22px 0 0 -160px}
+.moreinfo_div{width:875px; margin-left:-710px;  _margin-left:-900px; padding:0; border-width:1px 0 0 1px}
+.actions_div .warning{margin-bottom:0}
+.onrta{background:#fff; border:1px solid #e0e1e3; margin:0 0 10px}
+.onrta li{background:url(../../traffic.rta.ae/trfesrv/public_resources/images_en/onrtabg.gif) no-repeat 40.5% 100%; padding:10px 0 20px; text-align:center}
+.onrta li.last{background:none; padding:10px 0;}
+.inptchk{width:15px; display:inline-block; margin:2px 4px 0 0; *margin:0 4px 0 0}
+.chklabel{width:94%; display:inline-block}
+#prefdelivry_edit .chklabel{width:88%;}
+.algnrit{text-align:right; padding-right:15px}/*Check here*/
+.autoheigh, .autoheigh-recpt{height:200px; overflow-x:hidden; overflow-y:auto; border:1px solid #ccc; background:#fff; padding:10px 5px}
+.autoheigh-recpt, .autoheigh-chng{height:300px; padding:10px;}
+.autoheigh-chng{overflow-x:hidden; overflow-y:auto;}
+.bordgbg{border:1px solid #ccc; background:#fff; padding:10px 5px}
+.feelft{width:80%; margin:0 10px 0 0}
+.feerit{width:17%;}
+.plzwait{width:450px; margin:90px auto 0}
+.clrboth{clear:both; padding:5px 0 0; margin:0 0 15px; border-top:1px solid #c7c8c8;}
+.clr{clear:both}
+
+.renewstps{width:48%; float:left; margin-bottom:10px;}
+.renewstps li{background:url(../../traffic.rta.ae/trfesrv/public_resources/images_en/renewbg.gif) no-repeat 0 0; width:136px; float:left; padding:0 0 0 20px; color:#777; font:bold 14px Helvetica; margin:0 -16px 0 0}
+.renewstps li p{background:url(../../traffic.rta.ae/trfesrv/public_resources/images_en/renewbg.gif) no-repeat 100% 0; height:54px; padding:22px 30px 0 0; position:relative}
+.renewstps li.on{background:url(../../traffic.rta.ae/trfesrv/public_resources/images_en/renewbg-on.gif) no-repeat 0 0; color:#065696;}
+.renewstps li.on p{background:url(../../traffic.rta.ae/trfesrv/public_resources/images_en/renewbg-on.gif) no-repeat 100% 0;}
+.renewstps li.stp3{background:url(../../traffic.rta.ae/trfesrv/public_resources/images_en/renewpaybg.gif) no-repeat 0 0; width:96px; padding:0 0 0 45px}
+.renewstps li.stp3 p{background:url(../../traffic.rta.ae/trfesrv/public_resources/images_en/renewpaybg.gif) no-repeat 100% 0;}
+.renewstps li.exon{background:url(../../traffic.rta.ae/trfesrv/public_resources/images_en/renewpayon.gif) no-repeat 0 0; width:96px; padding:0 0 0 45px}
+.renewstps li.exon p{background:url(../../traffic.rta.ae/trfesrv/public_resources/images_en/renewpayon.gif) no-repeat 100% 0;}
+
+.renewstps li span{background:url(../../traffic.rta.ae/trfesrv/public_resources/images_en/numbers.gif) no-repeat 0 3px; padding:0 0 0 30px; display:block}
+.renewstps li.stp2 span{background-position:0 -64px;}
+.renewstps li.stp3 span{background-position:0 -131px; padding:8px 0 6px 30px}
+.renewstps li.on span{background-position:0 -198px;}
+.renewstps li.on span.stp2on{background-position:0 -265px;}
+.renewstps li.exon span.stp3on{background-position:0 -332px;}
+
+.insurlst li{margin:0 0 5px;}
+.tooltip{background:url(../../traffic.rta.ae/trfesrv/public_resources/images_en/tipbg.gif) no-repeat 100% 0; padding:0 8px 0 0; margin-top:-12px; text-align:left; *position:relative}
+.tooltip span{background:url(../../traffic.rta.ae/trfesrv/public_resources/images_en/tipbg.gif) no-repeat 0 0; padding:0 0 2px 8px; height:30px; color:#fff; display:block}
+.bordbotom{border-bottom:1px solid #ccc; padding-bottom:5px; margin-bottom:12px}
+.bordpad{border-bottom:1px solid #ccc; padding:8px 0 8px 30px;}
+.slcttime{}
+.slcttime li{width:28%; margin:0 16px 6px 0; padding:3px 0 4px 4px; float:left}
+.availble{background:#67c3e8; color:#fff}
+.availble_date{border-left:15px solid #67c3e8; padding-left:5px;}
+.frslabl, .frslablmore{width:90px; margin-right:5px;}
+.frslablmore{width:120px;}
+.cancl{margin:4px 6px 0 0}
+.fuladrdr{width:55%;}
+.mapthumb{width:172px; float:right}
+.myfinscontrit, .myfinscontrit span{background:url(../../traffic.rta.ae/trfesrv/public_resources/images_en/myfinscrt.gif) no-repeat 100% 0; height:10px; display:block; padding:0 15px 0 0}
+.myfinscontrit span{background:#eceff1 url(../../traffic.rta.ae/trfesrv/public_resources/images_en/myfinsclt.gif) no-repeat 0 0; padding:0}
+.myfinscont{background:#eceff1; padding:25px 0 10px}
+.myfinscont .digbg{margin:0; padding:10px 12px 2px}
+
+
+
+
+
+
+/*receptabs*/
+.receptabs{width:150px; float:left;}
+.recepdesc{width:425px; float:left;}
+.receptabs li{margin:10px 0;}
+.receptabs li a{font:bold 12px Helvetica; padding:10px 10px 0 10px; display:block;}
+.receptabs li a:hover{text-decoration:none; cursor:pointer;}
+.receptabs li.active{background:#fff url(../../traffic.rta.ae/trfesrv/public_resources/images_en/receptabsbg.gif) no-repeat 0 100%; padding:0 0 10px 0}
+.receptabs li.active a{background:#fff url(../../traffic.rta.ae/trfesrv/public_resources/images_en/receptabsbg.gif) no-repeat 0 0;}
+.receptabs li em{font:normal bold 12px Helvetica; color:#528fba; display:inline-block; float:left; width:15px;}
+.receptabs li label{display:block; float:left; width:115px}
+.tree{margin:0 0 10px;}
+/*movbox*/
+.movbox{background:#fff url(../../traffic.rta.ae/trfesrv/public_resources/images_en/boxpx.gif) repeat-x 0 0; /*height:100%*/}
+.boxcornrs, .boxcornrs span{background:url(../../traffic.rta.ae/trfesrv/public_resources/images_en/ritcorn.gif) no-repeat 100% 0; display:block; height:6px; padding:0 7px 0 0; font-size:0; line-height:0}
+.boxcornrs span{background:url(../../traffic.rta.ae/trfesrv/public_resources/images_en/lftcorn.gif) no-repeat 0 0; padding:0 0 0 7px;}
+.movboxcont, .srvcesdata{padding:10px 30px 0 30px;}
+.srvcescont{}
+.srvcescols{width:314px; padding:0 2px; _padding:0 1px 0 2px; float:left;}
+.srvcesbox{background:#fff url(../../traffic.rta.ae/trfesrv/public_resources/images_en/srvcspx.gif) repeat-x 0 0;}
+.srvcesdata{border:1px solid #f7f7f7; border-width:0 1px 1px; padding:0 30px 7px; margin:0 0 4px}
+.srvcestitle{background:url(../../traffic.rta.ae/trfesrv/public_resources/images_en/titlebg.gif) repeat-x 0 100%; padding:7px 30px 0; margin:0 0 10px; font:bold 16px Helvetica;}
+.titlebg, .mycert, .mylicns, .myreqst, .myplats, .myfins{background:url(../../traffic.rta.ae/trfesrv/public_resources/images_en/box-icons.gif) no-repeat 100% 0;/*padding:0 0 13px;*/display:block; color:#065696; height:35px;}
+.mycert{background-position:100% -63px;}
+.mylicns{background-position:100% -124px;}
+.myreqst{background-position:100% -174px;}
+.myplats{background-position:100% -233px;}
+.myfins{background-position:100% -283px;}
+.srvsnum{background:url(../../traffic.rta.ae/trfesrv/public_resources/images_en/numbg.gif) no-repeat 0 0; padding:0 0 0 10px; height:20px; display:inline-block; margin:0 0 0 4px;}
+.srvsnum em{background:url(../../traffic.rta.ae/trfesrv/public_resources/images_en/numbg.gif) no-repeat 100% 0; padding:2px 8px 0 0; height:18px; font:bold 12px Helvetica; color:#fff; display:block; *display:inline-block}
+.srvclst{min-height:85px; color:#676767;}
+*html .srvclst{height:85px;}
+.boxbg .srvclst{min-height:100%}
+*html .boxbg .srvclst{height:100%;}
+.srvclst li{background:url(../../traffic.rta.ae/trfesrv/public_resources/images_en/arrows.gif) no-repeat 0 -37px; padding:0 0 0 12px; margin:0 0 5px}
+.srvclst li.nobg{background:none;}
+.container .srvclst li a{color:#676767; font:normal 12px Helvetica;}
+.container .srvclst li a.vewmore{color:#528fba;}
+.vewmore, .closeico{background:url(../../traffic.rta.ae/trfesrv/public_resources/images_en/plus.gif) no-repeat 0 2px; padding:0 0 0 15px; margin-left:4px; font:normal 11px Helvetica; color:#528fba}
+
+a.viewmorelookup{color:#528fba;}
+.viewmorelookup{padding:0 15px 0 0; margin-right:4px; font:normal 11px tahoma; color:#528fba; display:inline-block}
+
+.container .srvclst li a.vewmoreInsurance{color:#528fba;}
+.vewmoreInsurance, .closeico{background:url(../../traffic.rta.ae/trfesrv/public_resources/images_en/plus.gif) no-repeat 0 2px; padding:0 0 0 15px; margin-left:4px; font:normal 11px Helvetica; color:#528fba}
+.container .srvclst li a.vewmoreMortgage{color:#528fba;}
+.vewmoreMortgage, .closeico{background:url(../../traffic.rta.ae/trfesrv/public_resources/images_en/plus.gif) no-repeat 0 2px; padding:0 0 0 15px; margin-left:4px; font:normal 11px Helvetica; color:#528fba}
+
+.vewmoreVerify, .closeico{font:normal 11px Helvetica; color:#528fba}
+
+.closeico{background:url(../../traffic.rta.ae/trfesrv/public_resources/images_en/close.gif) no-repeat 0 2px;}
+.nobg{background:none;}
+/*largbox*/
+.largbox{background:#eceff1; margin:0 0 15px;}
+.largboxt, .largboxb, .largboxt span, .largboxb span{background:url(../../traffic.rta.ae/trfesrv/public_resources/images_en/grayboxt.gif) no-repeat 0 0; height:6px; display:block; padding:0 0 0 6px; line-height:0; font-size:0}
+.largboxb, .largboxb span{background:url(../../traffic.rta.ae/trfesrv/public_resources/images_en/grayboxb.gif) no-repeat 0 0;}
+.largboxt span, .largboxb span{background-position:100% 0; padding:0 6px 0 0}
+.largboxcont{padding:6px 6px 0}
+/**/
+.mainnav{margin:4px 0 0}
+.mainnav li{display:inline}
+.mainnav li a{font:bold 16px Helvetica; color:#065696; float:left; margin:0; padding:15px 19px 8px 20px; border-right:2px solid #fff}
+.mainnav li a:hover{text-decoration:none; background:#fff;}
+.mainnav li.on a{background:#fff; color:#d33127;}
+.mainnav li.last a{border:none}
+.mainnav li.on .srvsnum, .mainnav li a:hover .srvsnum, .subtabs li .srvsnum{background:url(../../traffic.rta.ae/trfesrv/public_resources/images_en/numbgon.gif) no-repeat 0 0;}
+.mainnav li.on .srvsnum em, .mainnav li a:hover .srvsnum em, .subtabs li .srvsnum em{background:url(../../traffic.rta.ae/trfesrv/public_resources/images_en/numbgon.gif) no-repeat 100% 0;}
+.subtabs li.active .srvsnum{background:url(../../traffic.rta.ae/trfesrv/public_resources/images_en/numbg.gif) no-repeat 0 0;}
+.subtabs li.active .srvsnum em{background:url(../../traffic.rta.ae/trfesrv/public_resources/images_en/numbg.gif) no-repeat 100% 0;}
+.subtabs{margin-left:25px;}
+.subtabs li{background:url(../../traffic.rta.ae/trfesrv/public_resources/images_en/subnavbg.gif) no-repeat 100% 0; height:36px; padding:0 20px 0 0; float:left; margin:0 10px 0 0;}
+.subtabs li p{background:url(../../traffic.rta.ae/trfesrv/public_resources/images_en/subnavbg.gif) no-repeat 0 0; padding:10px 0 0 20px; text-align:center; height:26px; float:left}
+.container .subtabs li a{font:bold 14px Helvetica; color:#666;}
+.subtabs li a:hover{text-decoration:none; color:#065696}
+.container .subtabs li.active a{color:#065696;}
+.subtabs li.active, .subtabs li.active p{background:url(../../traffic.rta.ae/trfesrv/public_resources/images_en/subnavbg-on.gif) no-repeat 100% 0}
+.subtabs li.active p{background-position: 0 0}
+/*btns*/
+.container a.reg-btn, .container a.reg-btn-gray, .container a.reg-btn-graid, .container a.btn-difer, .popup a.reg-btn-gray, .framebody a.reg-btn-gray{background:url(	https://traffic.rta.ae/trfesrv/public_resources/images_en/reg_btn.gif) no-repeat 0 0; padding:0 0 0 18px; /*color:#d33127;*/ color:#777; display:inline-block; cursor:pointer; margin:0 0 0 5px}
+.reg-btn em, .reg-btn-gray em, .btn-difer em, .reg-btn-graid em{font-style:normal; font:normal 12px Helvetica; height:18px; padding:4px 18px 0 0; background:url(https://traffic.rta.ae/trfesrv/public_resources/images_en/reg_btn.gif) no-repeat 100% 0; display:block; _float:left; text-align:center}
+.container a.reg-btn-gray, .popup a.reg-btn-gray, .framebody a.reg-btn-gray{background:url(https://traffic.rta.ae/trfesrv/public_resources/images_en/reg_btn_gray.gif) no-repeat 0 0;}
+.reg-btn-gray em{background:url(https://traffic.rta.ae/trfesrv/public_resources/images_en/reg_btn_gray.gif) no-repeat 100% 0;}
+.container a.btn-difer, .btn-difer em{background:url(../../traffic.rta.ae/trfesrv/public_resources/images_en/btn_difer.gif) no-repeat 0 0; padding:0 0 0 24px; color:#696868; font-weight:bold; margin:-4px 0 0 5px;}
+.btn-difer em{background-position:100% 0; height:21px; padding: 7px 32px 0 0; margin:0}
+.container a.btn-difer{*position:relative;}
+.container a.posstat{*position:static;}
+.container a.more-btn{background:url(../../traffic.rta.ae/trfesrv/public_resources/images_en/more_action.gif) no-repeat 0 0; padding-left:25px;}
+.more-btn em, .more-btnwit em{width:115px; text-align:center}
+.container a.more-btnwit{background:url(../../traffic.rta.ae/trfesrv/public_resources/images_en/more_actionwit.gif) no-repeat 0 0; padding-left:25px;}
+.container a.reg-btn-graid{background:url(../../traffic.rta.ae/trfesrv/public_resources/images_en/btn_graid.gif) no-repeat 0 0;}
+.reg-btn-graid em{background:url(../../traffic.rta.ae/trfesrv/public_resources/images_en/btn_graid.gif) no-repeat 100% 0;}
+.fxdwdth{width:111px; text-align:center}
+.fxdwdthmore{width:125px; text-align:center}
+.vewprnt{width:133px; text-align:center}
+/*paging*/
+.chng_lang{direction:ltr;}
+.paging{text-align:center; margin-top:30px;}
+.paging a, .paging span{padding:1px 2px 2px; margin:0 5px 0 4px;}
+.paging .current{background:#2e6ab1; color:#fff; font-weight:bold; border:none; padding:2px 5px 3px; _padding:0 5px 1px; _display:inline-block}
+.paging .nextprev{font-weight:bold; margin:0 20px 0 19px}
+.paging span.nextprev{font-weight:normal; color:#999}
+/*print*/
+.print-page{width:550px; margin:0 auto; padding:12px; line-height:17px;}
+.print-head{margin:0 0 20px; padding:7px; border-bottom:1px solid #e1e1e1}
+.print-ico-iner{background:url(../../traffic.rta.ae/trfesrv/public_resources/images_en/prntico.gif) no-repeat 0 0; padding-left:26px; float:right;}
+.print-page .srvcestitle{background:none; padding:7px 0 0; margin:0 0 15px; font:bold 16px Helvetica; color:#000}
+/**/
+.warning{background:#f3f4f4 url(../../traffic.rta.ae/trfesrv/public_resources/images_en/warning.gif) no-repeat 5px 6px; padding:3px 3px 3px 22px; color:#d33127; margin:8px 0 15px; display:inline-block; font-weight:bold}
+.blunonlnk{color:#546a79}
+.red{color:#d33127;}
+.gray, .container a.gray{color:#858585;}
+.blue, .container a.blue /*, .container .srvclst li a*/{color:#065696}
+.colctinfo{color:#555; font:bold 14px Helvetica;}
+.darkrgray{color:#555}
+.light_blue{color:#528fba}
+.fnt10{font-size:10px}
+.fnt12{font-size:12px}
+.nomarg{margin:0;}
+.margthalf{margin-top:5px;}
+.margt1{margin-top:10px;}
+.margt2{margin-top:20px;}
+.margb1{margin-bottom:10px;}
+.margbhalf{margin-bottom:5px;}
+.margb2{margin-bottom:20px;}
+.matop50{margin-top:50px;}
+.per50{width:53.5%;}
+.wdth70per{width:67.5%;}
+.posrel{position:relative;}
+.hightfull{height:100%;}
+.framebody{background:#eceff1}
+#cboxWrapper, #cboxLoadedContent{background:#eceff1;}
+.framebody .srvcesdata, #cboxLoadedContent .srvcesdata{line-height:16px; font-size:12px; border:none;}
+.framebody .plzwait .srvcesbox{background:#fff url(../../traffic.rta.ae/trfesrv/public_resources/images_en/srvcspx.gif) repeat-x 0 -1px; border:none}
+.framebody .updates{width:100%;}
+/*rta overwrite styles*/
+#rta_header #header_logos #RTA_logo{height:80px;}
+#rta_header #menu_services{*margin:10px 0 0; _margin:0;}
+#rta_header, #rta_header #menu_services, #rta_header #header_main_menu, #rta_header #menu_services, #rta_footer{width:100%}
+#rta_header #menu_services ul li{margin-left:48px;}
+#menu_search{margin:0 215px 0 0}
+#menu_switch_lan_ar a{font-size:24px; padding-bottom:6px; display:block}
+#rta_footer #footer_links{width:947px;
+	background:#343434;
+    padding:8px 5px;
+    border:0px solid #303030;
+    text-align:center;
+    color:#FFFFFF;
+}
+#rta_footer #footer_links ul li a{
+    font-size:0.65em;
+	background:transparent none repeat scroll 0 0;
+    font-family: Arial, Helvetica, sans-serif;
+    color:white;
+    text-decoration: none;
+    }
+
+*html .bordbotom .inptbtn{margin:0; position:static}
+.nf404{background:url(../../traffic.rta.ae/trfesrv/public_resources/images_en/nfico.gif) no-repeat 0 4px; padding:0 0 0 36px; font:normal 17px Helvetica}
+.nf404 h3{font-size:18px;}
+.nf404 .srvclst li{background-position:0 -34px;}
+.container .srvclst li a.light_blue{color:#528fba}
+.padt5{padding-top:50px;}
+
+/*report classes*/
+.reptbg{background:#fff; height:920px; position:relative}
+.twologos{}
+.bgtop{height:179px; position:absolute; left:0; top:15px; z-index:9}
+.repbbg{position:absolute; top:3px; left:0; z-index:99}
+.bgbotom{height:162px; position:absolute; bottom:85px; right:0;}
+.replogo{margin:30px 0;}
+.recepdesc-rep{width:635px; float:left;}
+.reptitle{text-align:center; margin:20px 0 30px}
+.rep-srchrsult{width:100%;}
+.rep-srchrsult td, .rep-srchrsultflix td{padding:3px; vertical-align:top}
+.repcol1{width:27%;}
+.repcol2{width:49%;}
+.repcol3{width:22%}
+.repcolsplit{width:26%}
+.repcolhaf{width:50%;}
+.artxt{font-family:tahoma; direction:rtl; text-align:right}
+.print-page-interim{width:635px; height:841px; overflow:hidden; margin:0 auto; padding:10px 0 0; line-height:13px; font-size:13px}
+.fnt09{font-size:9px;}
+.print-page-interim a.print-ico-iner:hover{text-decoration:none}
+.print-page-interim .print-head{margin:0; border:none; padding:0}
+.print-page-interim .print-ico-iner{float:left;}
+.print-page-interim .reptbg{height:810px}
+.placeholder{border-bottom:1px dotted #ccc;}
+/*end report classes*/
+.blinking_gray{color:Black;}
+.blinking_red{color:Red;}

@@ -1,0 +1,1167 @@
+.plate{
+	width:260px;
+	height:60px;
+	border:4px solid #000;
+	border-radius:8px;
+	background:#fff;
+	margin:40px 5px 0px 10px;
+	position:relative;
+}
+
+.plate.taxi{
+	background:#EEC900;
+}
+.plate.transport{
+	background:#48A43F;
+}
+.plate.taxi-luxury{
+	background:#EEC900;
+}
+.plate.transport-luxury{
+	background:#48A43F;
+}
+
+.plate .code{
+	font-family: 'rta_plateregular' !important;
+	font-size: 52px;
+	width: 15%;
+	line-height: 93%;
+	padding-left: 3%;
+	margin-right: 2%;
+	position:absolute;
+	top:4px;
+	left:0;
+    color:#000 !important;
+}
+
+.plate.taxi .code, .plate.transport .code{
+	font-size:12px;
+}
+.plate.taxi-luxury .code, .plate.transport-luxury.code{
+	font-size:12px;
+}
+
+.plate.taxi .code img, .plate.transport .code img{
+	width:100%;
+	margin-top:5px;
+}
+.plate.taxi-luxury .code img, .plate.transport-luxury .code img{
+	width:80%;
+	margin-top:5px;
+}
+
+.plate.transport .code img{
+	width:90%;
+}
+.plate.transport-luxury .code img{
+	width:90%;
+}
+
+.plate .logo{
+	width:35%;
+	position:absolute;
+	top:-7px;
+	left:20%;
+}
+
+.plate.taxi .logo, .plate.transport .logo{
+	left:19%;
+}
+.plate.taxi-luxury .logo, .plate.transport .logo{
+	left:19%;
+}
+
+.plate .logo.default{
+	width:20%;
+	position:absolute;
+	top:0;
+	left:25%;
+}
+
+.plate .logo img{
+	width:100%;
+	margin-top:18%;
+}
+.plate-short.entertainment{
+	background:#EEC900;
+        height: 75px;
+}
+.plate-short.entertainment-luxury{
+	background:#EEC900;
+        height: 75px;
+}
+.plate-short.classic{
+	background: url(../img/classic-plate.html) 0 0 no-repeat;
+	border:0;
+        height: 75px;
+}
+
+.plate-short.classic-luxury{
+	background: url(../img/classic-plate-luxury.html) 0 0 no-repeat;
+	border:0;
+        height: 75px;
+}
+.plate-short.classic .number{
+	color:#c9ffff !important;
+	left:-19px;
+	width:100%;
+	font-size:32px;
+	top:35px;
+	letter-spacing:-1px;
+}
+.plate-short.classic-luxury .number{
+	color:#c9ffff !important;
+	left:-19px;
+	width:100%;
+	font-size:32px;
+	top:35px;
+	letter-spacing:-1px;
+}
+
+.plate-short.classic-new{
+	background: url(../img/classic-plate-short-new.html) 0 0 no-repeat;
+	border:0;
+        height: 75px;
+}
+
+.plate-long.classic-new{
+	background: url(../img/classic-plate-long-new.html) 0 0 no-repeat;
+	border:0;
+        height: 75px;
+        width: 230px;
+}
+
+.plate-short.classic-luxury-new{
+	background: url(../img/classic-plate-luxury-new.html) 0 0 no-repeat;
+	border:0;
+        height: 75px;
+}
+.plate-short.classic-new .number{
+	color:#000000 !important;
+	left:19px;
+	width:100%;
+	font-size:32px;
+	top:25px;
+	letter-spacing:-1px;
+        font-family: 'rta_plateregular' !important;
+}
+
+.plate-long.classic-new .number{
+	color:#000000 !important;
+	left:19px;
+	width:100%;
+	font-size:32px;
+	top:25px;
+	letter-spacing:-1px;
+        font-family: 'rta_plateregular' !important;
+        padding-top: 30px;
+}
+
+.plate-short.classic-luxury-new .number{
+	color:#000000 !important;
+	left:-19px;
+	width:100%;
+	font-size:32px;
+	top:35px;
+	letter-spacing:-1px;
+}
+.plate-short.consulate{
+	background: url(../img/consulate-plate.html) 0 0 no-repeat;
+	border:0;
+        height: 75px;
+}
+
+.plate-short.consulate-luxury{
+	background: url(../img/consulate-plate-luxury.html) 0 0 no-repeat;
+	border:0;
+        height: 75px;
+}
+.plate-short.consulate .number{
+	color:#000 !important;
+	left:0;
+	width:100%;
+	font-size:38px;
+	top:35px;
+	letter-spacing:-1px;
+}
+.plate-short.consulate-luxury .number{
+	color:#000 !important;
+	left:0;
+	width:100%;
+	font-size:38px;
+	top:35px;
+	letter-spacing:-1px;
+}
+.plate-short.export{
+	background: url(../img/export-plate.html) 0 0 no-repeat;
+	border:0;
+}
+.plate-short.export-luxury{
+	background: url(../img/export-plate-luxury.html) 0 0 no-repeat;
+	border:0;
+}
+.plate-short.export .number{
+	color:#73feff !important;
+	font-size:42px;
+	top:8px;
+	letter-spacing:-1px;
+}
+.plate-short.export-luxury .number{
+	color:#73feff !important;
+	font-size:42px;
+	top:8px;
+	letter-spacing:-1px;
+}
+.plate-short.motorcycle{
+	background: url(../img/motorcycle-plate.html) 0 0 no-repeat;
+	border:0;
+	height:88px;
+}
+
+.plate-short.motorcycle-luxury{
+	background: url(../img/motorcycle-plate-luxury.html) 0 0 no-repeat;
+	border:0;
+	height:88px;
+}
+
+.plate-short.motorcycle .number{
+	color:#000 !important;
+	font-size:30px;
+	top:48px;
+	left:30%;
+	letter-spacing:-3px;
+}
+.plate-short.motorcycle-luxury .number{
+	color:#000 !important;
+	font-size:38px;
+	top:43px;
+	left:26%;
+	letter-spacing:-3px;
+}
+.plate.flag{
+	background: url(../img/dubai-flag-plate.html) 0 0 no-repeat;
+	border:0;
+}
+
+.plate.flag-luxury{
+	background: url(../img/dubai-flag-plate-luxury.html) 0 0 no-repeat;
+	border:0;
+}
+.plate.flag .number{
+	color:#fff !important;
+	direction:rtl;
+	left: 43%;
+}
+.plate.flag-luxury .number{
+	color:#fff !important;
+	direction:rtl;
+	left: 43%;
+}
+.plate.police{
+	background: url(../img/police-plate.html) 0 0 no-repeat;
+	border:0;
+        height: 75px;
+        width: 110%;
+}
+
+.plate.police-luxury{
+	background: url(../img/police-plate-luxury.html) 0 0 no-repeat;
+	border:0;
+        height: 75px;
+        width: 110%;
+}
+
+.plate.police .number{
+	color:#000 !important;
+	left: 56%;
+	width: 40%;
+	font-size: 46px;
+	top: 6px;
+}
+.plate.police-luxury .number{
+	color:#000 !important;
+	left: 56%;
+	width: 40%;
+	font-size: 46px;
+	top: 6px;
+}
+.plate-short.learning{
+	background: url(../img/learning-plate.html) 0 0 no-repeat;
+	border:0;
+	height:88px;
+}
+
+.plate-short.learning-luxury{
+	background: url(../img/learning-plate-luxury.html) 0 0 no-repeat;
+	border:0;
+	height:88px;
+}
+
+.plate-short.learning .number{
+	color:#000 !important;
+	left:30%;
+	font-size:45px;
+	top:18px;
+	letter-spacing:-3px;
+}
+.plate-short.learning-luxury .number{
+	color:#000 !important;
+	left:30%;
+	font-size:45px;
+	top:18px;
+	letter-spacing:-3px;
+}
+
+.plate-short.trailer{
+	background: url(../img/trailer-plate.html) 0 0 no-repeat;
+	border:0;
+        height: 75px;
+}
+
+.plate-short.trailer-luxury{
+	background: url(../img/trailer-plate.html) 0 0 no-repeat;
+	border:0;
+        height: 75px;
+}
+
+.plate-short.trailer .number{
+	color:#90d4dd !important;
+	font-size:42px;
+	top:8px;
+	letter-spacing:-1px;
+        left:23%
+}
+.plate-short.trailer-luxury .number{
+	color:#90d4dd !important;
+	font-size:42px;
+	top:8px;
+	letter-spacing:-1px;
+        left:23%
+}
+
+.plate-short.trade{
+	background: url(../img/trade-plate.html) 0 0 no-repeat;
+	border:0;
+}
+
+.plate-short.trade-luxury{
+	background: url(../img/trade-plate-luxury.html) 0 0 no-repeat;
+	border:0;
+}
+
+.plate-short.trade .number{
+	color: #0a2250 !important;
+	font-size: 35px;
+	top: 36px;
+	letter-spacing: -1px;
+	left: 28%;
+}
+.plate-short.underTest{
+	background: url(../img/under_test.html) 0 0 no-repeat;
+	border:0;
+	width: 210px;
+	height: 100px;
+}
+
+.plate-short.underTest .number{
+	color: #000000 !important;
+	font-size: 35px;
+	top: 36px;
+	letter-spacing: -1px;
+	left: 20%;
+}
+.plate .number{
+	font-family: 'rta_plateregular' !important;
+	font-size: 52px;
+	width: 53%;
+	padding: 0;
+	position:absolute;
+	top:4px;
+	left:47%;
+	line-height: 93%;
+	letter-spacing: -3px;
+	text-align:center;
+    color:#000 !important;
+}
+.plate.transport .number{
+	color:#fff;
+}
+
+/********* Short Plate *********/
+/*.plate-short{
+	width:150px;
+	height:76px;
+	border:4px solid #000;
+	border-radius:8px;
+	background:#fff;
+	margin:5px;
+	position:relative;
+}
+*/
+.plate-short{
+	width:170px;
+	height:70px;
+	border:2px solid #000;
+	border-radius:4px;
+	background:#fff;
+	margin:5px;
+	position:relative;
+}
+
+.plate-short.taxi{
+	background:#EEC900;
+}
+.plate-short.taxi-luxury{
+	background:#EEC900;
+}
+.plate-short.transport-luxury{
+	background:#48A43F;
+}
+
+.plate-short .code {
+	font-family: 'rta_plateregular';
+	font-size: 34px;
+	width: 15%;
+	line-height: 93%;
+	padding-left: 3%;
+	margin-right: 2%;
+	position:absolute;
+	top:3px;
+	left:0;
+}
+
+.plate-short.taxi .code, .plate-short.transport .code{
+	font-size:12px;
+	width:20%;
+}
+
+.plate-short.taxi .code img, .plate-short.transport .code img{
+	width:100%;
+	margin-top:12px;
+}
+
+.plate-short.taxi-luxury .code, .plate-short.transport-luxury .code{
+	font-size:12px;
+	width:20%;
+}
+
+.plate-short.taxi-luxury .code img, .plate-short.transport-luxury .code img{
+	width:100%;
+	margin-top:12px;
+}
+
+.plate-short .logo{
+	width:46%;
+	position:absolute;
+	top:34px;
+	left:18%;
+}
+
+.plate-short .logo.default {
+	width:95%;
+	/*position:absolute;*/
+	top:8px;
+	/*left:3%;*/
+}
+
+.plate-short .logo img {
+	width:auto !important;
+	height:auto !important;
+	margin-top:9px;
+}
+
+.plate-short .number{
+	font-family: 'rta_plateregular';
+	font-size: 34px;
+	width: 53%;
+	padding: 0;
+	position:absolute;
+	top:3px;
+	left:16px;
+	line-height: 93%; 
+	text-align:center;
+}
+.plate-short.transport .number{
+	color:#fff;
+}
+
+.xs{
+	zoom:0.25;
+    -moz-transform: scale(0.25); 
+    -moz-transform-origin: 0 0;
+}
+
+.sm {
+	width:130px;
+	height:30px;
+	border:2px solid #000;
+	border-radius:4px;
+	background:#fff;
+	margin:10px 5px 0px 10px; 
+}
+.sm .number { font-size:26px; top:2px; letter-spacing: 0px; }
+.sm .code { font-size: 26px; top: 2px; } 
+.sm .logo img { margin-top: 8%; }
+
+.md {
+	width:170px;
+	height:39px;
+	border:2px solid #000;
+	border-radius:4px;
+	background:#fff;
+	margin:10px 5px 0px 10px; 
+}
+.md .number { font-size:34px; top:2px; letter-spacing: 0px; }
+.md .code { font-size: 34px; top: 2px; } 
+.md .logo img { margin-top: 8%; width:81% !important; height: auto !important; }
+
+
+.lg{
+	zoom:1;
+    -moz-transform: scale(1); 
+    -moz-transform-origin: 0 0;
+}
+
+.select2-container .select2-choice{
+	height:54px;
+	margin-bottom:20px;
+}
+.select2-container .select2-choice .select2-arrow{
+	background:none;
+	border:none;
+}
+.select2-container .select2-choice .select2-arrow b{
+	margin-top: 13px;
+}
+.m-top-12{
+	margin-top:12px !important;
+}
+.m-top-22{
+	margin-top:22px !important;
+}
+.txt_align_cntr{
+	text-align: center;
+}
+
+.plate-luxury{
+	width:291px;
+	height:66px;
+	border:4px solid #000;
+	border-radius:8px;
+	background:#fff;
+	margin:30px 0px 0px 0px;
+	position:relative;
+}
+
+@-moz-document url-prefix() { 
+    .plate-td {
+        top: 16px;
+    }
+}
+
+.entertainment .logo.default{
+    left:3%;
+}
+.plate-short-bl {
+	width:140px;
+        height: 75px !important;
+
+}
+.plate-short-bl  .logo.default {
+	left:5px;
+	top:35px;
+}
+.plate-short-bl .logo img {
+	width:120px !important;
+}
+
+.plate-new-design {
+    width: 208px;
+    height: 52px;
+    border: 4px solid #000;
+    border-radius: 8px;
+    background: #fff;
+    margin: 17px !important ;
+    position: relative;
+    text-align: center;
+}
+
+.plate-new-design .code {
+    font-family: 'rta_plateregular' !important;
+    font-size: 23px;
+    width: 37%;
+    line-height: 172%;
+    padding-left: 1%;
+    margin-right: 1%;
+    position: absolute;
+    top: 14px;
+    left: 0;
+    color: #000 !important;
+}
+
+.plate-new-design .logo.default {
+    width: 29%;
+    position: absolute;
+    top: -19%;
+    left: 3%;
+}
+
+.plate-new-design .number {
+    font-family: 'rta_plateregular' !important;
+    font-size: 33px;
+    width: 53%;
+    padding: 0;
+    position: absolute;
+    top: 7px;
+    left: 34%;
+    line-height: 93%;
+    letter-spacing: -3px;
+    text-align: center;
+    color: #000 !important;
+}
+
+.plate-new-design .logo img {
+    width: 100%;
+    margin-top: 18%;
+}
+
+.plate-new-design .plt-logo img {
+    width: 26% !important;
+    margin-top: 0% !important;
+    margin-left: -63%;
+}
+
+.plate-short-new-design {
+    width: 150px;
+    height: 95px;
+    border: 4px solid #000;
+    border-radius: 8px;
+    background: #fff;
+    margin: 17px !important ; 
+    position: relative;
+}
+
+.plate-short-new-design .code {
+    font-family: 'rta_plateregular';
+    font-size: 28px;
+    width: 166%;
+    line-height: 93%;
+    padding-left: 3%;
+    margin-right: 3%;
+    position: absolute;
+    top: 6px;
+    left: 0;
+}
+
+.plate-short-new-design .logo.default {
+    width: 88%;
+    position: absolute;
+    top: 15px;
+    left: 2%;
+}
+
+.plate-short-new-design .logo img {
+    width: 40% !important;
+    margin-top: -9%;
+    margin-left: -45%;
+}
+
+.plate-short-new-design .number {
+    font-family: 'rta_plateregular' !important;
+    font-size: 30px;
+    width: 53%;
+    padding: 0;
+    position: absolute;
+    top: 55px;
+    left: 22%;
+    line-height: 93%;
+    letter-spacing: -3px;
+    text-align: center;
+    color: #000 !important;
+}
+
+.plate-short-new-design .plt-logo img {
+    width: 40% !important;
+    margin-top: 3% !important;
+    margin-left: -45%;
+}
+
+.plate-luxury-new-design {
+    width: 183px;
+    height: 46px;
+    border: 4px solid #000;
+    border-radius: 8px;
+    background: #fff;
+    margin: 17px !important ; 
+    position: relative;
+    text-align: center;
+}
+
+.plate-luxury-new-design .code {
+    font-family: 'rta_plateregular' !important;
+    font-size: 21px;
+    width: 37%;
+    line-height: 254%;
+    padding-left: 1%;
+    margin-right: 1%;
+    position: absolute;
+    top: 2px;
+    left: 0;
+    color: #000 !important;
+}
+
+.plate-luxury-new-design .logo.default {
+    width: 37%;
+    position: absolute;
+    top: -31%;
+    left: 1%;
+}
+
+.plate-luxury-new-design .logo img {
+    width: 61% !important;
+    margin-top: 18%;
+}
+
+.plate-luxury-new-design .number {
+    font-family: 'rta_plateregular' !important;
+    font-size: 25px;
+    width: 53%;
+    padding: 0;
+    position: absolute;
+    top: 7px;
+    left: 34%;
+    line-height: 93%;
+    letter-spacing: -3px;
+    text-align: center;
+    color: #000 !important;
+}
+
+.plate-luxury-new-design .plt-logo img {
+    width: 26% !important;
+    margin-top: 0% !important;
+    margin-left: -63%;
+}
+
+/********* New Plate *********/
+.plate-new{
+	width:213px;
+	height:54px;
+	border:4px solid #000;
+	border-radius:8px;
+	background:#fff;
+	margin:5px;
+	position:relative;
+}
+
+.plate-new.taxi{
+	background:#f7ba0b;
+}
+.plate-new.transport{
+	background:#48A43F;
+	border: 4px solid #fff;
+	-webkit-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.3);
+	-moz-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.3);
+	box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.3);
+}
+.plate-new.export{
+	background:#234884;
+	border: 4px solid #fff;
+	-webkit-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.3);
+	-moz-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.3);
+	box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.3);
+}
+
+.plate-new .code{
+	font-family: 'rta_plateregular';
+	font-size: 30px;
+	width: 55px;
+  text-align: center;
+	line-height: 93%;
+	padding-left: 0;
+	margin-right: 2%;
+	position:absolute;
+	top:20px;
+	left:0;
+	color:#000 !important;
+}
+
+.plate-new.taxi .code, .plate-new.transport .code, .plate-new.export .code{
+	font-size:12px;
+	left: 5px;
+}
+
+.plate-new.transport .code, .plate-new.export .code{
+	top: 12px;
+	left: 2px;
+}
+
+.plate-new.taxi .code img, .plate-new.transport .code img, .plate-new.export .code img{
+	width:40%;
+	margin-top:2px;
+	border: 0;
+}
+.plate-new.transport .code img, .plate-new.export .code img{
+	width: 80%;
+	border: 0;
+}
+
+.plate-new.export .code img{
+	margin-top: 10px;
+}
+
+.plate-new .logo{
+	width: 20%;
+  position: absolute;
+  top: -10px;
+  left: 2%;
+}
+
+.plate-new.taxi .logo, .plate-new.transport .logo{
+	left:3%;
+}
+
+.plate-new .logo.default{
+	width:20%;
+	position:absolute;
+	top:0;
+	left:21%;
+}
+
+.plate-new .logo img{
+	width:100%;
+	margin-top:22%;
+	border: 0;
+}
+
+.plate-new .number{
+        font-family: 'rta_plateregular';
+	font-size: 40px;
+	width: 53%;
+	padding: 0;
+	position:absolute;
+	top: 3px;
+	left:37%;
+	line-height: 93%;
+	letter-spacing: -3px;
+	text-align:center;
+	color:#000 !important;
+}
+.plate-new.transport .number, .plate-new.export .number{
+	color:#fff !important;
+}
+
+
+
+/********* New Short Plate *********/
+.plate-new-short{
+	width:150px;
+	height:76px;
+	border:4px solid #000;
+	border-radius:8px;
+	background:#fff;
+	margin:5px;
+	position:relative;
+}
+
+.plate-new-short.taxi{
+	background:#f7ba0b;
+}
+.plate-new-short.transport{
+	background:#48A43F;
+	border: 4px solid #fff;
+	-webkit-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.3);
+	-moz-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.3);
+	box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.3);
+}
+.plate-new-short.export{
+	background:#234884;
+	border: 4px solid #fff;
+	-webkit-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.3);
+	-moz-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.3);
+	box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.3);
+}
+.plate-new-short.commercial{
+	background:#fff;
+	border: 4px solid #234884;
+}
+
+.plate-new-short .code{
+	font-family: 'rta_plateregular';
+  font-size: 30px;
+  width: 55px;
+  line-height: 93%;
+  padding-left: 3%;
+  margin-right: 2%;
+  position: absolute;
+  top: 0;
+  left: auto;
+  right: 0;
+  text-align: center;
+}
+
+.plate-new-short.taxi .code,
+.plate-new-short.transport .code,
+.plate-new-short.export .code,
+.plate-new-short.commercial .code,
+.plate-new-short.learning .code{
+	font-size:12px;
+	width: 17%;
+  top: 0;
+  margin-top: 0;
+  right: 5%;
+}
+
+.plate-new-short.transport .code,
+.plate-new-short.export .code,
+.plate-new-short.commercial .code,
+.plate-new-short.learning .code{
+	width: 27%;
+}
+
+.plate-new-short.taxi .code img,
+.plate-new-short.transport .code img,
+.plate-new-short.export .code img,
+.plate-new-short.commercial .code img{
+	width:100%;
+	margin-top:4px;
+}
+
+.plate-new-short.learning .code img {
+	width: 70%;
+	margin-top: 4px;
+}
+
+.plate-new-short.transport .code img {
+	margin-top:0px;
+}
+
+.plate-new-short.export .code img{
+	margin-top:6px;
+}
+
+.plate-new-short.motorcycle .code {
+	text-align: right;
+	margin-right: 10px;
+}
+
+.plate-new-short.export .number-code {
+	position: absolute;
+	font-family: 'rta_plateregular';
+	top: -2px;
+	left: 48%;
+	color: #fff;
+	font-size: 20px;
+	text-align: center;
+}
+
+.plate-new-short .logo{
+	width: 32%;
+	position: absolute;
+	top: -6px;
+	left: 3%;
+}
+
+.plate-new-short .logo.default{
+	width:95%;
+	position:absolute;
+	top:20px;
+	left:3%;
+}
+
+.plate-new-short.taxi .logo, .plate-new-short.transport .logo, .plate-new-short.export .logo {
+	left: 6%;
+}
+
+.plate-new-short .logo img{
+	width:100%;
+	margin-top:18%;
+}
+
+.plate-new-short .number{
+	font-family: 'rta_plateregular';
+	font-size: 35px;
+	width:100%;
+	padding: 0;
+	position:absolute;
+	top: 23px;
+  left: 0;
+	line-height: 93%;
+	letter-spacing: -3px;
+	text-align:center;
+    color:#000 !important;
+}
+.plate-new-short.transport .number, .plate-new-short.export .number{
+	color:#fff !important;
+}
+
+.plate-new-short.commercial .number{
+	color:#234884 !important;
+}
+
+.plate-new.motorcycle .number{
+	font-family: 'rta_plateregular'  !important;
+	font-size: 25px;
+	width:100%;
+	padding: 0;
+	position:absolute;
+	top: 20px;
+  left: 0px;
+	line-height: 93%;
+	letter-spacing: -3px;
+	text-align:center;
+    color:#000 !important;
+}
+
+.plate-new.motorcycle .code{
+    font-family: 'rta_plateregular' !important;
+    font-size: 22px;
+    width: 55px;
+    line-height: 93%;
+    padding-left: 3%;
+    margin-right: 2%;
+    position: absolute;
+    top: 0;
+    left: auto;
+    right: 0;
+    text-align: center;
+}
+
+.plate-new.motorcycle{
+    width: 140px;
+    height: 45px;
+    border: 4px solid #000;
+    border-radius: 8px;
+    background: #fff;
+    margin: 5px;
+    position: relative;
+}
+
+.plate-new.motorcycle .logo{
+  width: 30%;
+  position: absolute;
+  top: -10px;
+  left: 2%;
+}
+
+.row .plate.sm .code2{
+    margin-left: -6px !important;
+    font-size: 23px;
+}
+.row.plate .logo{
+    left: 20%;
+}
+.row .plate.md .code2{
+    margin-left: -6px !important;
+    font-size: 30px;
+}
+
+.plate-new-short.transport.trailer {
+    width: 140px;
+    height:70px;
+    margin: auto;
+}
+
+.plate-new-short.transport.trailer .code {
+    top: 3px;
+}
+
+.plate-new-short.transport.trailer .logo {
+    top: -5px;
+}
+
+
+
+.plate-new-design .expo-plate .number{
+    margin-left: 10%;
+
+}
+
+.plate-new-design  .expo-logo{
+
+margin-right: 22%;
+    margin-top: 6%;
+    height: 40px;
+	
+}
+
+
+.plate-short-new-design.sm  .expo-logo{
+
+margin-right: -15%;
+    margin-top: 3%;
+    height: 40px;
+	
+}
+
+#oldPlateLogoProcessDiv .plate-short-new-design.md  .expo-logo{
+
+margin-right: -20%;
+    margin-top: 5%;
+    height: 40px;
+	
+}
+
+#oldPlateLogoProcessDiv .plate-new-design.md  .expo-logo{
+
+margin-right: 15%;
+    margin-top: 1%;
+    height: 40px;
+	
+}
+
+#oldPlateLogoProcessDiv .plate-luxury-new-design.md  .expo-logo{
+
+margin-right: 22%;
+    margin-top: 1%;
+    height: 34px;
+	
+}
+
+#oldPlateLogoProcessDiv .plate-luxury-new-design.md  .number{
+
+left: 44%;
+	
+}
+
+.plate-short-new-design.md  .expo-logo{
+
+margin-right: -20%;
+    margin-top: 10%;
+    height: 40px;
+	
+}
+
+.plate-luxury-new-design  .expo-logo{
+
+margin-right: 22%;
+    margin-top: 6%;
+    height: 40px;
+	
+}
+
+/********* unqinue div class in pages Rleate to PLates *********/
+/********* This area if for unqinue div class which found in spesfic pages *********/
+/********* Any css challenges founds in certien page related to Plate desgin should be added here  **/
+
+/**
+Used in pages  
+    1- 1- special_plate_inquiry
+**/
+.special_plates_inquiry_in_basket .plate-short-new-design {
+    text-align: center;
+    margin: 0px !important; 
+}
+
+.special_plates_inquiry_in_basket .plate-short.classic-new { 
+   margin: 0px !important; 
+}
+.special_plates_inquiry_in_basket .motorcycle {  
+   margin: 0px !important;   
+}
+
+.special_plates_inquiry_in_basket .entertainment {  
+   margin: 0px !important;   
+}
+
+
+

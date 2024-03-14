@@ -1,0 +1,218 @@
+body *{
+float:none;
+}
+#rta_header{
+	width: 1000px;
+	font-family:Arial,Helvetica,sans-serif;
+	font-size: 150.1%;
+	line-height:1.125em;
+}
+#rta_header #header_logos{
+	background: #fff url(../images_en/rta/bgtop.html) top repeat-x;
+	height: 80px;
+}
+#rta_header #header_logos #Dubai_Gov_logo{
+	width: 154px;
+	float: left;
+	height: 80px;
+}
+#rta_header #header_logos #RTA_logo{
+	width: 288px;
+	float: right;
+}
+#rta_header #header_red_sep{
+	height: 3px;
+	background: #d20000;
+	clear: both;
+}
+#rta_header #header_main_menu{
+	margin: 0;
+	height:40px;
+	padding:1px 0 0 0;
+	border-top:0px solid #d5d5d5;
+	border-right:1px solid #d5d5d5;
+	border-left:1px solid #d5d5d5;
+	border-bottom:2px solid #d5d5d5;
+}
+#rta_header #header_main_menu #menu_left{
+	background: #fff url(../images_en/rta/left.html) top left no-repeat;
+	width:9px;
+	height: 42px;
+	float: left;
+}
+#rta_header #header_main_menu #menu_content{
+	height: 42px;
+	float: left;
+	padding-top: 10px;
+}
+#rta_header #header_main_menu #menu_content ul {
+	display:inline;
+	margin-left:0;
+	padding-left:0;
+}
+#rta_header #header_main_menu #menu_content ul li {
+	display:inline;
+	list-style-image:none;
+	list-style-position:outside;
+	list-style-type:none;
+	margin-left:0;
+	margin-top:20px;
+	padding:20px 8px 0;
+}
+#rta_header #header_main_menu #menu_content ul li a {
+	background:transparent none repeat scroll 0 0;
+	font-family: Arial, Helvetica, sans-serif;
+	color:#000000;
+	font-size:.75em;
+	font-weight: bold;
+	text-decoration: none;
+	float:none;
+}
+#rta_header #header_main_menu #menu_search, #rta_header #header_main_menu #menu_dubai_ae, #rta_header #header_main_menu #menu_switch_lan_ar {
+	height: 42px;
+	float: left;
+	padding: 10px 7px 0;
+}
+#rta_header #header_main_menu #menu_switch_lan_ar a{
+	color: #000000;
+	text-decoration: none;
+}
+#rta_header #header_main_menu #menu_right{
+	background: #fff url(../images_en/rta/right.html) top right no-repeat;
+	width:9px;
+	height: 42px;
+	float: right;
+}
+
+#rta_header #menu_services {
+	clear:both;
+	float:none;
+	width:1000px;
+}
+#rta_header #menu_services ul {
+	display:inline;
+	margin-left:0;
+	padding-left:0;
+}
+#rta_header #menu_services ul li {
+	display:inline;
+	list-style-image:none;
+	list-style-position:outside;
+	list-style-type:none;
+	margin-left:0;
+	padding:5px 15px 0 32px;
+	margin-left: 55px;
+	float: left;
+	height: 28px;
+}
+#rta_header #menu_services ul li a {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size:.75em;
+	font-weight: bold;
+	text-decoration: none;
+
+}
+#rta_header #menu_services ul li.marine_services {
+	background: #fff url(../images_en/rta/marine.html) top left no-repeat;
+}
+#rta_header #menu_services ul li.marine_services a{
+	color: #305484;
+}
+#rta_header #menu_services ul li.transport_services {
+	background: #fff url(../images_en/rta/pta.html) top left no-repeat;
+}
+#rta_header #menu_services ul li.transport_services a{
+	color: #f8730a;
+}
+#rta_header #menu_services ul li.traffic_services {
+	background: #fff url(../images_en/rta/tra.html) top left no-repeat;
+}
+#rta_header #menu_services ul li.traffic_services a{
+	color: #ffb202;
+}
+#rta_header #menu_services ul li.rail_services {
+	background: #fff url(../images_en/rta/rail.html) top left no-repeat;
+}
+#rta_header #menu_services ul li.rail_services a{
+	color: #728e04;
+}
+#rta_header #menu_services ul li.licensing_services {
+	background: #fff url(../images_en/rta/licensing.html) top left no-repeat;
+}
+#rta_header #menu_services ul li.licensing_services a{
+	color: #695432;
+}
+#rta_header #menu_services ul li.taxi_services {
+	background: #fff url(../images_en/rta/taxi.html) top left no-repeat;
+}
+#rta_header #menu_services ul li.taxi_services a{
+	color: #710d72;
+}
+
+#wrap{
+	clear: both;
+}
+
+/*rta_footer styles*/
+#rta_footer{
+	width: 1000px;
+	font-family:Arial,Helvetica,sans-serif;
+	font-size: 150.1%;
+	line-height:1.125em;
+	text-align: center;
+}
+#rta_footer hr{
+	background:#C01C16 none repeat scroll 0 0;
+	border-color:#C01C16 -moz-use-text-color -moz-use-text-color;
+	border-style:solid none none;
+	border-width:1px medium medium;
+	clear:both;
+	height:1px;
+	margin:0;
+	padding:0;
+	color: #C01C16;
+}
+#rta_footer #footer_links{
+	margin:10px auto;
+width:700px;
+}
+#rta_footer #footer_links ul {
+	display:inline;
+	margin-left:0;
+	padding-left:0;
+}
+#rta_footer #footer_links ul li {
+	display:inline;
+	list-style-image:none;
+	list-style-position:outside;
+	list-style-type:none;
+	margin-left:0;
+	padding:20px 2px 0;
+}
+#rta_footer #footer_links ul li a {
+	background:transparent none repeat scroll 0 0;
+	font-family: Arial, Helvetica, sans-serif;
+	color:#000000;
+	font-size:.75em;
+	font-weight: bold;
+	text-decoration: none;
+}
+#rta_footer #footer_links ul li.separator{
+	color: #cccccc;
+	font-size: .75em;
+	margin: 0;
+	padding: 0;
+}
+#rta_footer #footer_copyright{
+	background: url(../images_en/rta/Footer_grad.html) top repeat-x;
+	font-size: .65em;
+	font-weight: bold;
+	padding: 10px;
+}
+#rta_footer #footer_copyright p{
+	margin: 0;
+	text-align:center;
+}
+#rta_footer #footer_copyright p.lastmodified{
+	color:#C01C16;
+}
