@@ -6,7 +6,10 @@ import Button from "react-bootstrap/Button";
 import MyModal from "./Modal";
 
 function Main() {
-  const [path, setPath] = useState(null);
+  const [data, setdata] = useState(null);
+  console.log(data,'data')
+  const [path, setpath] = useState(null)
+  console.log(path,'path')
   const location = useLocation();
   const queryParams = new URLSearchParams(location.search);
   const index = queryParams.get("index");
@@ -23,9 +26,10 @@ function Main() {
           index: index,
         });
         console.log(res, "res");
-        setPath(res?.message?.data);
+
         if (res) {
-          setPath(res?.message?.data);
+          setdata(res?.message?.data);
+          setpath(res?.message?.data?.file)
         }
       } catch (error) {
         console.log(error);
@@ -744,7 +748,7 @@ function Main() {
               </th>
             </tr>
             <tr>
-              <td style={{ textAlign: "center" }}>68329245</td>
+              <td style={{ textAlign: "center" }}>{data?.name}</td>
               <td style={{ textAlign: "center" }}>Export Certificate</td>
               <td style={{ textAlign: "center" }}></td>
               <td style={{ textAlign: "center" }}>02-01-2024</td>
